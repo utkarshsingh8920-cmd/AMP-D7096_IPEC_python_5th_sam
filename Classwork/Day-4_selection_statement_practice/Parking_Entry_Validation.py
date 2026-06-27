@@ -16,6 +16,8 @@ Entry Denied
 # Parking Entry Validation
 print("---------------------------------------------------------------")
 parking_pass = int(input("Enter 1 for Valid Pass or 0 for No Pass: "))
+if parking_pass !=1 and parking_pass !=0:
+    exit("Only enter 1 and 0")
 #------------------------Condition check---------------------------------
 if parking_pass == 1:
     print("Entry Allowed")

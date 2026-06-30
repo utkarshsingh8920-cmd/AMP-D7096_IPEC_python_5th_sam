@@ -9,3 +9,9 @@ sum = 0
 for x in number:
     sum=sum+x
 print("Sum:-",sum)
+"""
+Output :
+Number are :
+40 90 34 55 33 54 545 343 43 452
+Sum:- 1689
+"""
